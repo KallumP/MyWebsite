@@ -1,0 +1,36 @@
+body{
+    background: rgb(139, 130, 130);
+
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.BannerLink:hover{
+    color:green;
+}
+.Banner{
+    background: black;
+    border: 3px solid rgb(20, 241, 57);
+    border-radius: 10px;
+    width: 50%;
+    margin:20px auto;
+    text-decoration: none;
+    font-size: 20px;
+    font-display: black;
+    text-align: center;
+    padding: 30px;
+
+}
+.PageTitle{
+    background: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.PageContent{
+    background: rgb(97, 97, 167);
+    font-size: 20px;
+    padding: 10px;
+}
