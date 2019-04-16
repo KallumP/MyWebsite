@@ -1,15 +1,29 @@
 body{
-    background: rgb(139, 130, 130);
+    background: rgb(39, 39, 39);
+
+    overflow: scroll;
+}
+.BannerLink{
+    text-decoration: none;
+    color: magenta;
+    padding: 10px;
+    border-radius: 15px;
+    background: black;
 
     
 }
-a{
-    text-decoration: none;
-    
-}
 .BannerLink:hover{
-    color:green;
+    color:blue;
+    background: gray;
 }
+.ContentLink{
+    text-decoration: none;
+    color: blue;
+}
+.ContentLink:hover{
+    color: red;
+}
+
 .Banner{
     background: black;
     border: 3px solid rgb(20, 241, 57);
@@ -25,12 +39,13 @@ a{
 }
 .PageTitle{
     background: white;
-    font-size: 30px;
+    font-size: 40px;
     padding: 20px;
     text-align: center;
 }
 .PageContent{
-    background: rgb(97, 97, 167);
-    font-size: 20px;
+    background: rgb(131, 131, 131);
+    font-size: 25px;
     padding: 10px;
+    text-align: left;
 }
